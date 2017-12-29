@@ -1,0 +1,89 @@
+import {StyleSheet} from 'react-native'
+
+export default StyleSheet.create({
+    container:{
+        width:'100%',
+        paddingLeft:'2%',
+        paddingRight:'2%'
+    },
+    img:{
+        width:'100%',
+        height:180
+    },
+    box:{
+        width:'100%',
+        height:30,
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'flex-end',
+        position:'absolute',
+        right:10,
+        bottom:5
+    },
+    icon:{
+        width:18,
+        height:18,
+        marginTop:3,
+        marginLeft:5
+    },
+    text:{
+       marginLeft:4,
+        fontSize:12,
+        color:'#ffffff',
+        lineHeight:24
+       
+    },
+    like:{
+        width:60,
+        height:24,
+        backgroundColor:'#ea9518',
+        flexDirection:'row',
+        borderRadius:10,
+        marginLeft:20
+    },
+    des:{
+        fontSize:12,
+        color:'#333',
+        width:'100%',
+        marginTop:10,
+        marginBottom:20
+    },
+    title:{
+        fontSize:16,
+        color:'#333',
+        marginLeft:6,
+        marginBottom:10
+   },
+   steps:{
+       width:'100%',
+       height:100,
+       borderBottomWidth:1,
+       borderBottomColor:'#ccc',
+       flexDirection:'row'
+
+   },
+   stepsimg:{
+       width:80,
+       height:80,
+       marginTop:10,
+       marginLeft:10,
+       marginRight:20
+   },
+   stepsdes:{
+       fontSize:12,
+       color:'#333',
+       lineHeight:100,
+       flex:1
+   },
+   tipsbox:{
+       marginTop:10,
+       marginBottom:30
+   },
+   tips:{
+       fontSize:12,
+       color:'#333',
+       lineHeight:20
+   }
+
+
+})
